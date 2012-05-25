@@ -934,9 +934,6 @@ BrowserDialog.prototype.getAbsoluteUrl = function (base, link) {
         return link;
     }
 
-    if (base[base.length - 1] != '/')
-        base += "/";
-
     base_array = base.split('/');
     link_array = link.split('/');
 
